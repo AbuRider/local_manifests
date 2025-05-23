@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-        <!-- Remote -->
-	<remote name="Abu" fetch="https://github.com/AbuRider" />
-        <remote name="mt6768" fetch="https://github.com/mt6768-dev" />
-	<remote name="los" fetch="https://github.com/lineageos" />
-		
-        <!-- Trees -->
-        <project path="device/xiaomi/earth" name="device_xiaomi_earth" remote="Abu" revision="15" clone-depth="1" />
-        <project path="vendor/xiaomi/vince" name="proprietary_vendor_xiaomi_earth" remote="mt6768" revision="lineage-22.2" clone-depth="1" />
-        <project path="kernel/xiaomi/vince" name="kernel_xiaomi_earth" remote="mt6768" revision="lineage-22.2" clone-depth="1" />
-	<project path="vendor/lineage-priv" name="vendor_extra" remote="AL" revision="14" clone-depth="1" />
-	<project path="hardware/xiaomi" name="hardware_xiaomi" remote="los" revision="lineage-22.2" clone-depth="1" />
-	<project path="hardware/mediatek" name="hardware_mediatek" remote="los" revision="lineage-22.2" clone-depth="1" />
-
+        <remote  name="ghubb"
+                fetch="https://github.com" />
+	
+<!-- Trees --> 
+ <project path="device/xiaomi/earth" name="AbuRider/android_device_xiaomi_earth" remote="ghubb" revision="lineage-22.2" clone-depth="1" />
+ <project path="vendor/xiaomi/earth" name="mt6768-dev/proprietary_vendor_xiaomi_earth" remote="ghubb" revision="lineage-22.2" />
+ <project path="kernel/xiaomi/earth" name="mt6768-dev/android_kernel_xiaomi_earth" remote="ghubb" revision="lineage-22.2" clone-depth="1" />
+ <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="ghubb" revision="lineage-22.2" />
+ <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghubb" revision="lineage-22.2" />
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghubb" revision="lineage-22.2" />
+ <!-- project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="ghubb" revision="lineage-21.0" /-->
+	
+<!-- frameworks_base -->
+ <!--remove-project name="frameworks_base" />
+ <project path="frameworks/base" name="DerpFest-AOSP/frameworks_base" remote="ghubb" revision="15.2" clone-depth="1" /-->
+	
 </manifest>
