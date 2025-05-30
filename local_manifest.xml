@@ -14,6 +14,6 @@
  
 <!-- frameworks_base -->
  <!--remove-project name="frameworks_base" />
- <project path="frameworks/base" name="Komodo-OS/frameworks_base" remote="ghubb" revision="15" clone-depth="1" /-->
+ <project path="frameworks/base" name="OrionOS-Project/frameworks_base" remote="ghubb" revision="vic" clone-depth="1" /-->
 	
 </manifest>
