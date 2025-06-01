@@ -4,10 +4,9 @@
                 fetch="https://github.com" />
 	
 <!-- Trees --> 
- <project path="device/xiaomi/earth" name="AbuRider/android_device_xiaomi_earth" remote="ghubb" revision="Horizon" clone-depth="1" />
+ <project path="device/xiaomi/earth" name="AbuRider/android_device_xiaomi_earth" remote="ghubb" revision="eprok15" clone-depth="1" />
  <project path="vendor/xiaomi/earth" name="mt6768-dev/proprietary_vendor_xiaomi_earth" remote="ghubb" revision="lineage-22.2" />
  <project path="kernel/xiaomi/earth" name="mt6768-dev/android_kernel_xiaomi_earth" remote="ghubb" revision="lineage-22.2" clone-depth="1" />
- <project path="vendor/horizon-priv/keys" name="AbuRider/vendor_extra" remote="ghubb" revision="Horizon" clone-depth="1" />
  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="ghubb" revision="lineage-22.2" clone-depth="1" />
  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="ghubb" revision="lineage-22.2" clone-depth="1" />
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghubb" revision="lineage-22.2" clone-depth="1" />
