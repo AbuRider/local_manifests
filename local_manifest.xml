@@ -4,7 +4,7 @@
                 fetch="https://github.com" />
 	
 <!-- Trees --> 
- <project path="device/xiaomi/earth" name="AbuRider/android_device_xiaomi_earth" remote="ghubb" revision="Havoc" clone-depth="1" />
+ <project path="device/xiaomi/earth" name="AbuRider/Bumi-Device-Tree" remote="ghubb" revision="Havoc" clone-depth="1" />
  <project path="vendor/xiaomi/earth" name="AbuRider/proprietary_vendor_earth" remote="ghubb" revision="lineage-20" />
  <project path="kernel/xiaomi/earth" name="mt6768-dev/android_kernel_xiaomi_earth" remote="ghubb" revision="lineage-22.1" clone-depth="1" />
  <project path="vendor/lineage-priv/keys" name="AbuRider/vendor_extra" remote="ghubb" revision="master" clone-depth="1" />
